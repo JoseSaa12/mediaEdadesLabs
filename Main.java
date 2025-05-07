@@ -5,17 +5,17 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // Llama a los tres ejercicios uno a uno
+        // Llamada de los ejercicios
         ejercicioCondicionales(sc);
-        System.out.println(); // Separador
+        System.out.println(); // dividor
         ejercicioBucle();
-        System.out.println(); // Separador
+        System.out.println(); // dividor 2
         ejercicioMediaEdades(sc);
 
         sc.close();
     }
 
-    // 1. CONDICIONALES
+    // 1 Ejercicio CONDICIONALES
     public static void ejercicioCondicionales(Scanner sc) {
         System.out.print("¿Cuál es tu edad? ");
         int edad = sc.nextInt();
@@ -33,7 +33,11 @@ public class Main {
         }
     }
 
-    // 2. BUCLE
+
+    
+
+
+    // 2 Ejercicio BUCLE
     public static void ejercicioBucle() {
         System.out.println("Contando del 20 al 10 y mostrando su cuadrado:");
         for (int i = 20; i >= 10; i--) {
@@ -41,7 +45,11 @@ public class Main {
         }
     }
 
-    // 3. MEDIA DE EDADES
+
+
+
+
+    // 3 ejercicio MEDIA DE EDADES
     public static void ejercicioMediaEdades(Scanner sc) {
         sc.nextLine(); // Limpiar buffer
 
